@@ -97,11 +97,10 @@ img {
 	max-width: 100%;
 	border:none;
 	margin:0;
- padding;
-0;
+ 	padding:0;
 }
 .float-right {
-	float:right;
+	float: right;
 }
 a:focus {
 	outline:0px;
@@ -508,6 +507,9 @@ img, img:hover, img:focus {
 .address ul .addrs {
 	margin-right:20px;
 }
+.address ul .addrs a {
+	color: #fff;
+}
 .top-social {
 	height:41px;
 }
@@ -599,7 +601,7 @@ img, img:hover, img:focus {
 	color:#242121;
 	font-weight:normal;
 	font-family: 'robotoregular';
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	padding-bottom: 30px !important;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form, .header4 {
@@ -657,7 +659,6 @@ img, img:hover, img:focus {
 	padding:0px;
 	margin:0px 15px;
 	padding-top:30px;
-	text-transform:uppercase !important;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
 	border-top:4px solid #1874c1 !important;
@@ -667,7 +668,6 @@ img, img:hover, img:focus {
 	background-color: #fff !important;
 }
 .navbar-brand {
-	margin-top:10px;
 	padding-left:0px;
 }
 /*
@@ -684,6 +684,7 @@ end NAVBAR
 .main-title h1 {
 	margin:0px;
 	text-transform:uppercase;
+	font-size: 35px;
 }
 .main-title h5 {
 	font-weight:normal;
@@ -1163,73 +1164,26 @@ figure.effect-layla:hover figcaption::before, figure.effect-layla:hover figcapti
 	height:100%;
 	width:100%;
 }
+.ls-right-arrow {
+	list-style: none;
+	padding-left: 10px;
+}
+.ls-right-arrow li {
+	padding: 4px 0px;
+}
+.ls-right-arrow li .fa {
+	color: #428bca;
+	font-weight: bold;
+	margin-right: 3px;
+}
 /*
  * 	what we do
  */
 .gri img {
 	width:100%;
 }
-.wedo {
-	margin-right:30px;
-	width:270px;
-}
-#our-news .wedo {
-	margin-right:30px;
-	width:370px;
-}
-.wedo:nth-child(4) {
-	margin-right:0px !important;
-}
-#our-news .wedo:nth-child(3) {
-	margin-right:0px !important;
-}
-.wedo .effect-layla {
-	border-bottom:4px solid #e5e5e5;
-}
-#what-we .wedo .effect-layla {
-	border-bottom:4px solid #fff!important;
-}
-.wedo:hover figure.effect-layla figcaption::before,  .wedo:hover figure.effect-layla figcaption::after {
-	opacity: 1 !important;
-	-webkit-transform: scale(1)!important;
-	transform: scale(1)!important;
-}
-.wedo h4 {
-	font-weight:normal;
-	border-bottom:1px solid #adadad;
-	padding-bottom:20px;
-	margin-bottom:26px;
-	margin-top:30px;
-}
-.wedo .more a {
-	color:#656565;
-	text-transform:uppercase;
-	border:1px solid #656565;
-	display:inline-block;
-	padding:8px 16px;
-}
-.wedo .more a:hover {
-	color:#fff;
-	background:#1874c1;
-	border:1px solid #1874c1;
-}
-.wedo p {
-	margin-bottom:36px;
-}
-.more {
-	margin-right:9px;
-}
-.wedo .estimate a {
-	color:#656565;
-	text-transform:uppercase;
-	border:1px solid #656565;
-	display:inline-block;
-	padding:8px 26px;
-}
-.wedo .estimate a:hover {
-	color:#fff;
-	background:#1874c1;
-	border:1px solid #1874c1;
+.content p {
+	margin-bottom: 30px;
 }
 /*
  * 	our skills
@@ -1913,15 +1867,7 @@ form input[type=text]:focus, form input[type=password]:focus, textarea:focus {
 	cursor:pointer;
 }
 #footer {
-	background:url("../images/ftbg.jpg") repeat scroll center 100%;
-}
-.footer {
-	position: relative;
-	top: -50px;
-}
-.footer-widget {
-	border-top:4px solid;
-	background:rgba(255,255,255,.9);
+	background: #303030;
 }
 .wid-title {
 	font-weight:normal;
