@@ -1,2 +1,2 @@
 # fingerprint-myanmar
-First fingerprinting service in Myanmar
+First fingerprinting services in Myanmar
