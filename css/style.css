@@ -3095,3 +3095,20 @@ figure.effect-layla .main-title {
 .social-agents li a i:hover {
 	color:#333333;
 }
+/* About us */
+.about-us p {
+    font-size: 2rem;
+    font-family: 'robotoregular';
+    line-height: 37px;
+    color: #4e4e4e;
+}
+.location li{
+	font-size: 17px;
+}
+.our-mission p{
+	font-size: 19px
+}
+.sub-title p {
+line-height: 35px;
+}
+	
